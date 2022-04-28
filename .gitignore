@@ -54,3 +54,4 @@ _darcs
 
 training_dir/
 *.zip
+env/
