@@ -4,6 +4,18 @@ MaskFormer Training Script.
 
 This script is a simplified version of the training script in detectron2/tools.
 """
+
+import sys
+
+try:
+    import hf_env
+    hf_env.set_env('202111')
+    sys.path.insert(0, '/ceph-jd/pub/jupyter/maoweian/notebooks/code/lvis/m2f/env') 
+    sys.path.insert(0, '/ceph-jd/pub/jupyter/maoweian/notebooks/code/lvis/m2f/mask2former/modeling/pixel_decoder/ops') 
+except:
+    pass
+
+
 try:
     # ignore ShapelyDeprecationWarning from fvcore
     from shapely.errors import ShapelyDeprecationWarning
