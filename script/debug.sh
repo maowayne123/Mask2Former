@@ -6,5 +6,5 @@
 hfai python train_net.py \
   --config-file configs/lvis/maskformer2_R50_bs16_50ep.yaml \
   --num-gpus 1 \
-  OUTPUT_DIR training_dir/debug
+  OUTPUT_DIR training_dir/debug \
   ++

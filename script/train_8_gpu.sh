@@ -1,4 +1,5 @@
 hfai python train_net.py \
+  --resume \
   --config-file configs/lvis/maskformer2_R50_bs16_50ep.yaml \
   --num-gpus 8 \
   OUTPUT_DIR training_dir/maskformer2_R50_bs16_50ep \
